@@ -1,4 +1,5 @@
 from time_deco import timeit
+
 @timeit("print_hundred",10)
 def print_hundred():
     for i in range(1,100):
